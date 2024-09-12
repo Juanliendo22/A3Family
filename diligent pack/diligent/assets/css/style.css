@@ -45,7 +45,7 @@
   --thm-heading-font: "Archivo Black", sans-serif;
   --thm-primary: #ff5a79;
   --thm-primary-rgb: 255, 90, 121;
-  --thm-secondary: #dae26b;
+  --thm-secondary: #826daf;
   --thm-secondary-rgb: 218, 226, 107;
 
   --thm-body-font-color: #6a6a6a;
@@ -551,7 +551,7 @@ h6 a {
   background: linear-gradient(
     90deg,
     rgba(202, 243, 51, 0) 0%,
-    #caf333 44.12%,
+    #826daf 44.12%,
     rgba(202, 243, 51, 0) 86.35%
   );
   margin-bottom: 8px;
@@ -587,7 +587,7 @@ h6 a {
 .sec-title-four .sub-title {
   position: relative;
   display: inline-block;
-  background: linear-gradient(90deg, #caf333 0%, rgba(202, 243, 51, 0) 86.35%);
+  background: linear-gradient(90deg, #826daf 0%, rgba(202, 243, 51, 0) 86.35%);
   padding-left: 10px;
   margin-bottom: 9px;
 }
@@ -3701,7 +3701,7 @@ Service Three Service Css
   background: linear-gradient(
     90deg,
     rgba(202, 243, 51, 0) 0%,
-    #caf333 44.12%,
+    #826daf 44.12%,
     rgba(202, 243, 51, 0) 86.35%
   );
 }
