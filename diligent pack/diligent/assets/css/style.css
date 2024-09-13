@@ -3740,3 +3740,11 @@ Cta Two Testmonials Css
 .cta-two.testmonials::before {
   display: none;
 }
+
+/*Agregado por mi*/
+
+/*ICONOS*/
+.banner-three__shape1 {
+  position: relative; /* O absolute, fixed según lo necesites */
+  top: 10px; /* Ajusta el valor según sea necesario */
+}
