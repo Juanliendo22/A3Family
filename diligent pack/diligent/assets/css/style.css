@@ -475,7 +475,7 @@ h6 a {
 }
 
 .sec-title .sub-title h4 {
-  color: var(--thm-primary);
+  color: var(--thm-primary) !important;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
@@ -3493,7 +3493,7 @@ label {
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(202, 243, 51, 0.24) 44.12%,
+    #826daf89 44.12%,
     rgba(255, 255, 255, 0) 86.35%
   );
 }
