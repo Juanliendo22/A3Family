@@ -383,13 +383,13 @@
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(240, 118, 206, 0.24) 44.12%,
+    rgba(243, 165, 221, 0.699) 44.12%,
     rgba(255, 255, 255, 0) 86.35%
   );
 }
 
 .service-three .sec-title-three .sub-title h4 {
-  color: var(--thm-secondary);
+  color: white;
 }
 
 .service-three .sec-title-three h2 {

@@ -551,7 +551,7 @@ h6 a {
   background: linear-gradient(
     90deg,
     rgba(202, 243, 51, 0) 0%,
-    #826daf 44.12%,
+    rgba(243, 165, 221, 0.699) 44.12%,
     rgba(202, 243, 51, 0) 86.35%
   );
   margin-bottom: 8px;
@@ -3493,13 +3493,13 @@ label {
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0) 0%,
-    #826daf89 44.12%,
+    rgba(243, 165, 221, 0.699) 44.12%,
     rgba(255, 255, 255, 0) 86.35%
   );
 }
 
 .working-process-one .sec-title-four .sub-title h4 {
-  color: var(--thm-secondary);
+  color: var(--thm-white);
 }
 
 .working-process-one .sec-title-four h2 {
