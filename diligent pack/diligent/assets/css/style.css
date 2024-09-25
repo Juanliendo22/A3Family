@@ -3863,3 +3863,55 @@ Cta Two Testmonials Css
   color: rgb(87, 251, 17); /* Color del ícono */
   font-size: 1.2em; /* Tamaño del ícono */
 }
+/* Contact Form Section Styles */
+.contact-form-section {
+  background-color: #121212; /* Fondo oscuro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+.sec-title-four .Qh2 {
+  color: #ffffff; /* Color blanco para el título principal */
+  font-weight: bold;
+}
+
+.sec-title-four p {
+  color: #b0b0b0; /* Color gris claro para la descripción */
+  margin-bottom: 40px; /* Espacio debajo de la descripción */
+}
+
+.form-group label {
+  color: #ffffff; /* Color blanco para las etiquetas */
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #232323; /* Fondo oscuro para los campos de entrada */
+  border: 2px solid #890ab8; /* Borde rojo oscuro */
+  border-radius: 5px; /* Esquinas redondeadas para los inputs */
+  color: #ffffff; /* Color blanco para el texto de entrada */
+  transition: border-color 0.3s; /* Transición suave para el color del borde */
+}
+
+.form-control:focus {
+  border-color: #890ab8; /* Cambia el color del borde al enfocarse */
+  box-shadow: 0 0 5px #890ab8; /* Efecto de sombra al enfocarse */
+}
+
+.text-center {
+  margin-top: 20px; /* Espacio arriba del botón */
+}
+
+.btn-primary {
+  background-color: #890ab8; /* Color rojo oscuro */
+  border: none; /* Eliminar borde predeterminado */
+  padding: 10px 20px; /* Relleno personalizado */
+  border-radius: 5px; /* Esquinas redondeadas para el botón */
+  color: #ffffff; /* Texto blanco en el botón */
+  transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.btn-primary:hover {
+  background-color: #0ab816; /* Color más oscuro al pasar el mouse */
+}
