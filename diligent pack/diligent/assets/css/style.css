@@ -589,8 +589,10 @@ h6 a {
   display: inline-block;
   background: linear-gradient(90deg, #826daf 0%, rgba(202, 243, 51, 0) 86.35%);
   padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 9px;
   z-index: 1;
+  border-radius: 2rem;
 }
 
 .sec-title-four .sub-title h4 {
@@ -648,6 +650,7 @@ h6 a {
   transition-duration: 800ms;
   background-color: var(--thm-black);
   z-index: -1;
+  border-radius: 1rem;
 }
 
 .thm-btn:hover:after {
@@ -675,6 +678,7 @@ h6 a {
   right: 0px;
   -webkit-transform: translateX(0);
   transform: translateX(0);
+  border-radius: 1rem;
 }
 
 .thm-btn .txt {
@@ -3742,10 +3746,120 @@ Cta Two Testmonials Css
   display: none;
 }
 
-/*Agregado por mi*/
-
 /*ICONOS*/
 .banner-three__shape1 {
   position: relative; /* O absolute, fixed según lo necesites */
   top: 10px; /* Ajusta el valor según sea necesario */
+}
+
+.borderRadius {
+  border-radius: 2rem;
+}
+.icon-whatsapp i {
+  color: black; /* Cambia el color del icono a negro */
+}
+
+/* Opcional: Para asegurarte de que el color no cambie en hover */
+.icon-whatsapp:hover i {
+  color: rgb(255, 255, 255); /* Mantiene el color negro al pasar el mouse */
+}
+
+.BotonFlotante {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.BotonFlotante:hover {
+  background-color: #128c7e;
+}
+
+.icon-whatsapp {
+  color: white;
+}
+.boton-interes {
+  display: inline-block;
+  background-color: #6b63ff8f; /* Color similar al de tu diseño */
+  color: #ffffff; /* Color del texto blanco */
+  padding: 8px 16px; /* Espaciado interno reducido */
+  font-size: 14px; /* Tamaño del texto más pequeño */
+  font-weight: normal; /* Eliminar negrita para hacerlo más ligero */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2rem; /* Bordes redondeados más suaves */
+  border: none; /* Sin borde */
+  box-shadow: none; /* Eliminar la sombra para hacerlo más plano */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+  margin-top: 10px;
+}
+
+.boton-interes:hover {
+  background-color: #fafafa; /* Color al hacer hover */
+  transform: translateY(-1px); /* Movimiento más leve hacia arriba */
+  color: #121212;
+}
+
+.boton-interes:active {
+  background-color: #4840b0; /* Color más oscuro al hacer clic */
+  transform: translateY(0); /* Volver a la posición original */
+}
+
+.boton-interes span {
+  margin-left: 5px; /* Espacio entre el texto y el icono reducido */
+}
+.team-two__single {
+  width: 80%;
+  padding: 15px; /* Espaciado interno */
+  margin: 10px 0; /* Espaciado externo */
+}
+
+.team-two__single-img img {
+  width: 100%; /* Asegúrate de que las imágenes no se salgan del contenedor */
+  height: auto; /* Mantén la relación de aspecto */
+}
+.list-container {
+  margin-top: 20px; /* Ajusta el valor según necesites */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start; /* Alineación por defecto */
+}
+
+@media (max-width: 768px) {
+  /* Cambia el valor según el breakpoint que necesites */
+  .list-container {
+    align-items: center; /* Alinear al centro en dispositivos móviles */
+  }
+}
+
+.list-container ul {
+  color: rgb(255, 255, 255); /* Color del texto de la lista */
+  list-style: none; /* Quitar viñetas */
+  padding-left: 0; /* Eliminar padding */
+}
+
+.list-container ul li {
+  display: flex; /* Alinear el ícono con el texto */
+  align-items: center; /* Centrar verticalmente el ícono con el texto */
+  margin-bottom: 10px; /* Espaciado entre los ítems */
+}
+
+.list-container ul li i {
+  margin-right: 8px; /* Espacio entre el ícono y el texto */
+  color: rgb(87, 251, 17); /* Color del ícono */
+  font-size: 1.2em; /* Tamaño del ícono */
 }
