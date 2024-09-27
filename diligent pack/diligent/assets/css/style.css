@@ -3918,3 +3918,11 @@ Cta Two Testmonials Css
 html {
   scroll-behavior: smooth;
 }
+.logo-box-one a img {
+  width: 100px; /* Tamaño inicial */
+  transition: transform 0.3s ease; /* Transición suave */
+}
+
+.logo-box-one a img:hover {
+  transform: scale(1.1); /* Aumenta el tamaño un 10% */
+}
