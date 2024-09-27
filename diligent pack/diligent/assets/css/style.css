@@ -3915,3 +3915,6 @@ Cta Two Testmonials Css
 .btn-primary:hover {
   background-color: #0ab816; /* Color más oscuro al pasar el mouse */
 }
+html {
+  scroll-behavior: smooth;
+}
