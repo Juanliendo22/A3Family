@@ -1523,7 +1523,7 @@ label {
 }
 
 .scroll-top.open {
-  bottom: 30px;
+  bottom: 200px;
 }
 
 .scroll-top::after {
@@ -3766,7 +3766,7 @@ Cta Two Testmonials Css
 
 .BotonFlotante {
   position: fixed;
-  bottom: 100px;
+  bottom: 120px;
   right: 20px;
   background-color: #25d366;
   color: white;
