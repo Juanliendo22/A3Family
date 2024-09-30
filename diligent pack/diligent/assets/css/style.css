@@ -3768,7 +3768,7 @@ Cta Two Testmonials Css
   position: fixed;
   bottom: 120px;
   right: 20px;
-  background-color: #25d366;
+  background-color: #ffffff;
   color: white;
   border: none;
   border-radius: 50%;
@@ -3784,7 +3784,8 @@ Cta Two Testmonials Css
 }
 
 .BotonFlotante:hover {
-  background-color: #128c7e;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .icon-whatsapp {
