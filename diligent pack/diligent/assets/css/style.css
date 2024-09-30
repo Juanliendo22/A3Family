@@ -3861,7 +3861,7 @@ Cta Two Testmonials Css
 
 .list-container ul li i {
   margin-right: 8px; /* Espacio entre el ícono y el texto */
-  color: rgb(87, 251, 17); /* Color del ícono */
+  color: rgba(238, 109, 231, 0.753); /* Color del ícono */
   font-size: 1.2em; /* Tamaño del ícono */
 }
 /* Contact Form Section Styles */
